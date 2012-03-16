@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Website Online"
+tagline: "Welcome!"
 category: updates
 tags: [website]
 ---
