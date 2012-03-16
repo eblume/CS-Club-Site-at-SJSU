@@ -34,7 +34,7 @@ will be supported there as well.
 
 ## About the author
 
-The original project was created by Erich Blume
+The original project was created by student Erich Blume
 < [blume.erich@gmail.com](mailto:blume.erich@gmail.com) > in 2012. Erich claims
 the copyright, but has licensed the project under the GPLv3 (see below) so that
 future generations of SJSU hackers can use it as they see fit.
