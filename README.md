@@ -20,6 +20,18 @@ Then point your browser at [http://localhost:4000](http://localhost:4000). It sh
 
 To contribute a change, please fork the [project](https://github.com/eblume/CS-Club-Site-at-SJSU) and hack way! When you've finished comitting your changes, send a 'Pull Request' through github, and the webmaster will review and merge your changes.
 
+### Adding a new page
+
+In short, to add a new page, you can either just add a file (like 'about.md'),
+or you could also run `rake page name='NAME HERE'`. Your call.
+
+### Adding a new post
+
+Currently, posts are not well-supported. You can add one, though, just run
+`rake post title='TITLE HERE'`. It will be added and accessible through the
+atom feed or the archive, and later on when the front page supports posts it
+will be supported there as well.
+
 ## About the author
 
 The original project was created by Erich Blume
