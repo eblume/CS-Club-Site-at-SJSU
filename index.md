@@ -19,10 +19,12 @@ No need to join - just show up! There are events happening all the time and the 
 
 ## Upcoming Events
 
-Soon there will be a public Google Calendar to track upcoming events.
+Click the Google Calendar button at the top right of this page to access the club's calendar.
 
 ## Contributing
 
-You can contribute to this web page by forking it on github. More info on this later!
+You can contribute to this web page by forking it on github! Simply click the 'Fork' button at the top right of this page, create a github account if you haven't already, and start hacking! When you've comitted all the changes you want to submit to the site, send them via a 'Pull Request'. The webmaster will then review and (possibly) merge your changes.
+
+Thanks for helping!
 
 
