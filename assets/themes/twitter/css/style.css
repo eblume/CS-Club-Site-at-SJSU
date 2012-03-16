@@ -70,8 +70,16 @@ html, body {
     color:#FFF;
 }
     
+/* navbar extension */
+.navbar-right {
+    position:absolute;
+    top: 0;
+    right:0;
+    margin-right:2em;
+    margin-top:0.8em;
+}
 
-/* custom stuff */
+/* headers */
 
 h2 {
     border-bottom:1px solid gray !important;
