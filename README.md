@@ -32,6 +32,7 @@ Currently, posts are not well-supported. You can add one, though, just run
 atom feed or the archive, and later on when the front page supports posts it
 will be supported there as well.
 
+
 ## About the author
 
 The original project was created by student Erich Blume
