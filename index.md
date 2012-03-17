@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CS Club
-tagline: @ SJSU
+tagline: '@ SJSU'
 ---
 {% include JB/setup %}
 
