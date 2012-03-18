@@ -3,6 +3,10 @@ html, body {
     background-color: rgb(209,221,233);
 }
 
+footer {
+    clear:both;
+}
+
 .navbar {
   margin-bottom: 0;
 }
@@ -82,9 +86,30 @@ html, body {
     margin-right:1.5em;
 }
 
+/* right sidebar */
+.container {
+    width: 1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.content {
+    margin-left: 2em;
+    margin-right: 200px;
+}
+
+.content span12 {
+}
+
+.rightsidebar {
+    float:right;
+    width: 160px;
+    margin-right: 10px;
+}
+
 /* headers */
 
-h2 {
+.content h2 {
     border-bottom:1px solid gray !important;
     margin-bottom:0.6em;
     margin-top:1em;
