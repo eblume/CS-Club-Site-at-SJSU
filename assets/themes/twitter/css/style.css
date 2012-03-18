@@ -74,6 +74,14 @@ html, body {
 }
     
 /* navbar extension */
+.navbar-inner {
+    margin-left: 10px;
+}
+ 
+.nav > li > a.external {
+    color: rgb(180,150,100);
+}
+
 .navbar-right {
     position:absolute;
     top: 0;
@@ -82,7 +90,7 @@ html, body {
 }
 
 .navbar-right-item {
-    margin-right:1.5em;
+    margin-right:10px;
 }
 
 /* right sidebar */
