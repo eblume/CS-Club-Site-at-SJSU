@@ -15,3 +15,6 @@ Here are some helpful links for CS Club Members:
 ## Linux:
 * [Distrowatch](http://www.distrowatch.com/)
 
+## Microsoft:
+* [MSDNAA](http://msdn02.e-academy.com/sjsu_cs)
+
