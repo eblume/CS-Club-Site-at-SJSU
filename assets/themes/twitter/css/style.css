@@ -123,9 +123,22 @@ html, body {
 
 /* headers */
 
+.content h1,h2 {
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+}
+
+.content h1 {
+    background-color: black;
+}
+
 .content h2 {
     border-bottom:1px solid gray !important;
     margin-bottom:0.6em;
     margin-top:1em;
+    background-color: #666666;
 }
 

@@ -5,9 +5,7 @@ tagline: '@ SJSU'
 ---
 {% include JB/setup %}
 
-Welcome to the SJSU CS club web page!
-
-**This space is currently under construction.**
+Welcome to the Computer Science Club at [San Jose State University](http://www.sjsu.edu/)!
 
 ## Location
 
