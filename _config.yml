@@ -121,4 +121,23 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
+
+
+# Link List - used in a few places for automatic link list generation.
+# 'links' is a list of hashes.
+#    'name' is the text to placed inside the link tag.
+#    'url' is the URL of the link.
+#    'class' may be either <false> (not a string) or a string which will be
+#            the name of a class to apply to this link.
+links :
+    - name: 'Facebook Group'
+      url: 'http://www.facebook.com/home.php?sk=group_153710221335288&ap=1'
+      class: false
+    - name: 'Game Dev Club'
+      url: 'http://sjsugamedev.com/'
+      class: false
+    - name: 'CS Department'
+      url: 'http://cs.sjsu.edu/'
+      class: false
+    
   

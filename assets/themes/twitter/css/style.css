@@ -74,6 +74,14 @@ html, body {
 }
     
 /* navbar extension */
+.navbar-inner {
+    margin-left: 10px;
+}
+ 
+.nav > li > a.external {
+    color: rgb(180,150,100);
+}
+
 .navbar-right {
     position:absolute;
     top: 0;
@@ -82,7 +90,7 @@ html, body {
 }
 
 .navbar-right-item {
-    margin-right:1.5em;
+    margin-right:10px;
 }
 
 /* right sidebar */
@@ -133,6 +141,12 @@ html, body {
 
 .content h1 {
     background-color: black;
+    padding-bottom: 0.1em;
+}
+
+.content h1 small {
+    color: rgb(140,140,140);
+    background-color: transparent;
 }
 
 .content h2 {

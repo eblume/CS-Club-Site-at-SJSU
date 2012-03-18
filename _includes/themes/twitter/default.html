@@ -26,7 +26,7 @@
 
   <body>
 
-    <div class="navbar">
+    <nav class='navbar'>
       <div class="navbar-inner">
         <div class="container">
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
@@ -34,6 +34,10 @@
             {% assign pages_list = site.pages %}
             {% assign group = 'navigation' %}
             {% include JB/pages_list %}
+            <!-- Important links -->
+            {% for link in site.links %}
+            <li {% if link.class != false %}class="{{ link.class }}"{% endif %}><a class="external" href="{{ link.url }}">{{ link.name }}</a></li>
+            {% endfor %}
           </ul>
         </div>
       </div>
@@ -41,7 +45,7 @@
         <!-- Github fork button -->
         <span class="navbar-right-item"><iframe src="http://markdotto.github.com/github-buttons/github-btn.html?user=eblume&repo=CS-Club-Site-at-SJSU&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95px" height="20px"></iframe></span>
       </div>
-    </div>
+    </nav>
 
     <div class="container">
       <div class="rightsidebar">
