@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Shouts"
+tagline: "& Quotes"
 group: navigation
 ---
 {% include JB/setup %}

@@ -23,6 +23,7 @@ You may also be interested in our
 [Computer Science department website](http://cs.sjsu.edu/).
 
 **Current Officers (Fall 2011 – Spring 2012)**:
+
 * President: David Do
 * Vice President: Tom (Yu-Ching) Wang
 * Secretary: Patrick Roteman

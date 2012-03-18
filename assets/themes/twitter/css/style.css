@@ -141,6 +141,12 @@ html, body {
 
 .content h1 {
     background-color: black;
+    padding-bottom: 0.1em;
+}
+
+.content h1 small {
+    color: rgb(140,140,140);
+    background-color: transparent;
 }
 
 .content h2 {
