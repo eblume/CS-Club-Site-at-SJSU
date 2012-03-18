@@ -1,11 +1,6 @@
 
 <div class="sidebar_widget">
-    <h2>Test Widget</h2>
-    <p>This is a test widget.</p>
-    <ul>
-        <li>Here is a list.</li>
-        <li>It's got some elments.</li>
-        <li>And some <a href="http://www.google.com">links</a>.</li>
-    </ul>
+    <h3>Upcoming Events</h3>
+<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=frtlkikvc0vuvai0h23j0bj05g%40group.calendar.google.com&amp;color=%23875509&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="190" height="300" frameborder="0" scrolling="no"></iframe>
 </div>
 
