@@ -3,6 +3,10 @@ html, body {
     background-color: rgb(209,221,233);
 }
 
+.navbar .brand {
+    color: rgb(110,170,180);
+}
+
 .navbar {
   margin-bottom: 0;
 }
