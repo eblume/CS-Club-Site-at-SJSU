@@ -1,0 +1,11 @@
+
+<div class="sidebar_widget">
+    <h2>Test Widget</h2>
+    <p>This is a test widget.</p>
+    <ul>
+        <li>Here is a list.</li>
+        <li>It's got some elments.</li>
+        <li>And some <a href="http://www.google.com">links</a>.</li>
+    </ul>
+</div>
+

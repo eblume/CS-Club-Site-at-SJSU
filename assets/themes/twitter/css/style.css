@@ -95,16 +95,27 @@ footer {
 
 .content {
     margin-left: 2em;
-    margin-right: 200px;
-}
-
-.content span12 {
+    margin-right: 240px;
 }
 
 .rightsidebar {
     float:right;
-    width: 160px;
+    width: 200px;
     margin-right: 10px;
+    padding-top: 10px;
+}
+
+/* sidebar widgets */
+.sidebar_widget {
+    background: rgb(245,245,245);
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 10px 10px 5px #888;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 3px solid rgb(200,200,200);
 }
 
 /* headers */
