@@ -113,7 +113,8 @@ html, body {
     
 /* navbar extension */
 .navbar-inner {
-    margin-left: 10px;
+    margin-left: auto;
+    margin-left: auto;
 }
  
 .nav > li > a.external {
