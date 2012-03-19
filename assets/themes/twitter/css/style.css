@@ -51,6 +51,33 @@ html, body {
     float:right;
 }
 
+.content h1 {
+    padding-bottom: 0.1em;
+}
+
+/* article block_quote header remaps */
+.block_quote {
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid gray;
+    background-color: rgb(245,245,245);
+}
+
+.block_quote > h1 {
+    font-size: 140%;
+    border: none;
+}
+
+.block_quote > h2 {
+    font-size: 120%;
+}
+
+.block_quote > h3,h4,h5,h6 {
+    font-size: 110%;
+    font-style: italic;
+}
+
+
 
 /* tag_box ======================================================== */
 
@@ -142,13 +169,23 @@ html, body {
 
 /* headers */
 
-.content h1 {
-    padding-bottom: 0.1em;
-}
-
-.content h2 {
+.maincontent > h1 {
     border-bottom:1px solid gray !important;
     margin-bottom:0.6em;
     margin-top:1em;
+    font-size: 180%;
 }
+
+.maincontent > h2 {
+    font-size: 160%;
+}
+
+.maincontent > h3 {
+    font-size: 140%;
+}
+
+.mainctontent > h4,h5,h6 {
+    font-size: 120%;
+}
+
 

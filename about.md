@@ -23,7 +23,7 @@ You may also be interested in our
 [Algorithms site](http://topcoder.csclubsjsu.com/) or the
 [Computer Science department website](http://cs.sjsu.edu/).
 
-**Current Officers (Fall 2011 – Spring 2012)**:
+# Current Officers (Fall 2011 – Spring 2012)
 
 * President: David Do
 * Vice President: Tom (Yu-Ching) Wang

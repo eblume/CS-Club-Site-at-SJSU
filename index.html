@@ -1,0 +1,42 @@
+---
+layout: page
+title: CS Club
+tagline: '@ SJSU'
+edit_url: /edit/master/index.md
+---
+{% include JB/setup %}
+{% assign toppost = site.posts[0] %}
+
+<p>Welcome to the Computer Science Club at <a href="http://www.sjsu.edu/">San Jose State University</a>!</p>
+
+<h1>Recent Post: <a href="{{ toppost.url }}">{{ toppost.title }}</a></h1>
+
+<p><em>Posted on {{ toppost.date }}:</em></p>
+
+<article class='block_quote'>
+{{ toppost.content }}
+</article>
+
+<h1>Club Information</h1>
+
+<h2>Location</h2>
+
+<p>The CS Club is located in MacQuarrie Hall, Room 227. This is across from the CS department offices.</p>
+
+<h2>How to join</h2>
+
+<p>No need to join - just show up! There are events happening all the time and the CS Club room (at MQH 227) is open during normal school hours to the entire student and faculty body.</p>
+
+<h2>Upcoming Events</h2>
+
+<p>Click the Google Calendar button at the top right of this page to access the club's calendar.</p>
+
+<h2>Contributing</h2>
+
+<p>You can contribute to this web page by forking it on github! Simply click the 'Fork' button at the top right of this page, create a github account if you haven't already, and start hacking! When you've comitted all the changes you want to submit to the site, send them via a 'Pull Request'. The webmaster will then review and (possibly) merge your changes.</p>
+
+<p>Additionally, its possible to click the '<a href="{{ site.canonical_github }}{{ page.edit_url }}">Edit this Page</a>' link on several pages. This will walk you though more or less the same process as above, but with an easy-to-use web editor so you don't even need to check out the repository.</p>
+
+<p>Thanks for helping!</p>
+
+

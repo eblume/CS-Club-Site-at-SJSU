@@ -9,7 +9,7 @@ edit_url: /edit/master/shout.md
 
 None yet, you should add some!
 
-## How to add a quote
+# How to add a quote
 
 You could
 [fork the website on github](https://github.com/CS-Club-at-SJSU/CS-Club-Site-at-SJSU)
