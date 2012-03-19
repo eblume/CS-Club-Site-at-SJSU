@@ -1,5 +1,7 @@
 # CS Club @ SJSU Web site
 
+The open-source repository for [http://csclubsjsu.com/](http://csclubsjsu.com/), San Jose State University's Computer Science club.
+
 The github page for this project can be found at [https://github.com/CS-Club-at-SJSU/CS-Club-Site-at-SJSU](https://github.com/CS-Club-at-SJSU/CS-Club-Site-at-SJSU).
 
 ## About this project
