@@ -6,7 +6,7 @@ edit_url: /edit/master/about.md
 ---
 {% include JB/setup %}
 
-The Computer Science Club at SJSU strives to gather and motivate computerr
+The Computer Science Club at SJSU strives to gather and motivate computer
 science students. It provides a forum for sharing opportunities, knowledge and
 to network. Also it allows students with this common interest to have some fun!
 
