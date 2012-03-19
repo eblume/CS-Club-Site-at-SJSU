@@ -40,6 +40,10 @@ The original project was created by student Erich Blume
 the copyright, but has licensed the project under the GPLv3 (see below) so that
 future generations of SJSU hackers can use it as they see fit.
 
+### About the oldest-ancestor repo
+
+You might noticed that user 'eblume' holds the oldest repo, despite the fact that the 'canonical' repo is a descendent. This is an artifact of how the project developed. Please do use the [official CSC@SJSU repo](https://github.com/CS-Club-at-SJSU/CS-Club-Site-at-SJSU), and not the oldest-ancestor repo (owned by eblume).
+
 ## License
 
 This project is free software: you can redistribute it and/or modify
