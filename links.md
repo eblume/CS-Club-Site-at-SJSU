@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "Links"
+title: Links
 group: navigation
+edit_url: /edit/master/links.md
 ---
 {% include JB/setup %}
 

@@ -1,5 +1,8 @@
 <div class="page-header">
   <h1>{{ page.title }} <small>{{ page.tagline }}</small></h1>
+  {% if page.edit_url %}
+  <span class="github_edit"><a href="{{ site.canonical_github }}{{ page.edit_url}}">Edit this page</a></span>
+  {% endif %}
 </div>
 
 <div class="row">

@@ -2,6 +2,7 @@
 layout: page
 title: CS Club
 tagline: '@ SJSU'
+edit_url: /edit/master/index.md
 ---
 {% include JB/setup %}
 

@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "About"
+title: About
 group: navigation
+edit_url: /edit/master/about.md
 ---
 {% include JB/setup %}
 

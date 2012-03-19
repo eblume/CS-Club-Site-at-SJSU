@@ -1,8 +1,9 @@
 ---
 layout: page
-title: "Shouts"
+title: Shouts
 tagline: "& Quotes"
 group: navigation
+edit_url: /edit/master/shout.md
 ---
 {% include JB/setup %}
 
@@ -12,7 +13,7 @@ None yet, you should add some!
 
 You could
 [fork the website on github](https://github.com/CS-Club-at-SJSU/CS-Club-Site-at-SJSU)
-and edit that way, but you could also simply [edit this page directly](https://github.com/CS-Club-at-SJSU/CS-Club-Site-at-SJSU/edit/master/shout.md).
+and edit that way, but you could also simply [edit this page directly]({{ site.canonical_github }}{{ page.edit_url }}).
 
 Try to keep the formatting consistent.
 

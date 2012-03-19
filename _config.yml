@@ -16,6 +16,11 @@ author :
   email : blume.erich@gmail.com
   github : eblume
 
+# Several pages reference the github repo for the project directly.
+# This should be set to the link for the main page of that github project.
+# DO NOT include a trailing slash.
+canonical_github: https://github.com/CS-Club-at-SJSU/CS-Club-Site-at-SJSU
+
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
