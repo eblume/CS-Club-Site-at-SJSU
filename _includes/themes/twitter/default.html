@@ -1,9 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" itemscope itemtype="http://schema.org/Organization">
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta itemprop="name" content="{{ page.title }}">
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    <meta itemprop="description" content="{{ page.description }}">
+    {% else %}
+    <meta itemprop="description" content="The Computer Science club at San Jose State University's web page is an open-source-enabled, allowing students to learn collaboration and cutting edge web development practices while running the club.">
+    {% endif %}
     <meta name="author" content="{{ site.author.name }}">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -22,6 +28,7 @@
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
   -->
+
   </head>
 
   <body>
@@ -42,6 +49,16 @@
         </div>
       </div>
       <div class="navbar-right">
+        <!-- Google+ --> 
+        <div class="g-plusone" data-size="medium"></div>
+        <script type="text/javascript">
+          (function() {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+          })();
+        </script>
+
         <!-- Github fork button -->
         <span class="navbar-right-item"><iframe src="http://markdotto.github.com/github-buttons/github-btn.html?user=CS-Club-at-SJSU&repo=CS-Club-Site-at-SJSU&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95px" height="20px"></iframe></span>
       </div>
