@@ -19,5 +19,5 @@ None listed yet - add yourself!
 
 **You don't need to ask permission!** Just click the edit link above and add yourself in. There are absolutely no qualifications to this, except that it would be very nice if you didn't lie about being a student at SJSU. But we won't check. (Probably.)
 
-You may include in your listing (1) your email address and/or (2) an additional link to something represeinting you, like a profile page or a personal web page, etc. Both links are entirely optional. If you chose to do either, try to keep to the format shown above, where your name is a hyperlink to your email and the extra link is in parenthesis to the right of your name.
+You may include in your listing (1) your email address and/or (2) an additional link to something representing you, like a profile page or a personal web page, etc. Both links are entirely optional. If you chose to do either, try to keep to the format shown above, where your name is a hyperlink to your email and the extra link is in parenthesis to the right of your name.
 
