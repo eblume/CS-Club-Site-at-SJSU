@@ -1,6 +1,6 @@
 # CS Club @ SJSU Web site
 
-The github page for this project can be found at [https://github.com/eblume/CS-Club-Site-at-SJSU](https://github.com/eblume/CS-Club-Site-at-SJSU).
+The github page for this project can be found at [https://github.com/CS-Club-at-SJSU/CS-Club-Site-at-SJSU](https://github.com/CS-Club-at-SJSU/CS-Club-Site-at-SJSU).
 
 ## About this project
 
@@ -18,7 +18,7 @@ Then point your browser at [http://localhost:4000](http://localhost:4000). It sh
 
 ## How to contribute
 
-To contribute a change, please fork the [project](https://github.com/eblume/CS-Club-Site-at-SJSU) and hack way! When you've finished comitting your changes, send a 'Pull Request' through github, and the webmaster will review and merge your changes.
+To contribute a change, please fork the [project](https://github.com/CS-Club-at-SJSU/CS-Club-Site-at-SJSU) and hack way! When you've finished comitting your changes, send a 'Pull Request' through github, and the webmaster will review and merge your changes.
 
 ### Adding a new page
 
