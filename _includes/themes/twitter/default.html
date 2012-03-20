@@ -46,7 +46,9 @@
             {% include JB/pages_list %}
             <!-- Important links -->
             {% for link in site.links %}
-            <li {% if link.class != false %}class="{{ link.class }}"{% endif %}><a class="external" href="{{ link.url }}">{{ link.name }}</a></li>
+            <li {% if link.class != false %}class="{{ link.class }}"{% endif %}>
+              <a class="external" href="{{ link.url | escape }}">{{ link.name }}</a>
+            </li>
             {% endfor %}
           </ul>
         </div>
@@ -63,10 +65,10 @@
         </script>
 
         <!-- Github fork button -->
-        <span class="navbar-right-item"><iframe src="http://markdotto.github.com/github-buttons/github-btn.html?user=CS-Club-at-SJSU&repo=CS-Club-Site-at-SJSU&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95px" height="20px"></iframe></span>
+        <span class="navbar-right-item"><iframe src="http://markdotto.github.com/github-buttons/github-btn.html?user=CS-Club-at-SJSU&amp;repo=CS-Club-Site-at-SJSU&amp;type=fork&amp;count=true" style="width:95px; height:20px;" seamless frameBorder="0" scrolling="0" allowtransparency="true"></iframe></span>
 
         <!-- Atom feed -->
-        <span class="navbar-right-item"><a href="/atom.xml"><img src="{{ ASSET_PATH}}/images/feed-icon-16x16.gif"></a></span>
+        <span class="navbar-right-item"><a href="/atom.xml"><img src="{{ ASSET_PATH}}/images/feed-icon-16x16.gif" alt="Syndication Feed"></a></span>
 
         <!-- end of navbar-right -->
       </div>
