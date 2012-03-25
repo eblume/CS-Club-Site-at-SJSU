@@ -3,6 +3,8 @@ layout: post
 title: "Day One Analytics"
 category: administration
 tags: [website]
+author: eblume
+authoremail: blume.erich@gmail.com
 ---
 {% include JB/setup %}
 
@@ -39,6 +41,4 @@ We had 135 unique visitors, generating 501 page views over 165 visits. The avera
 That's all of the interesting statistics. There's all sorts of other analytics that Google will give you for free (and more if you pay, I think, but I haven't looked in to that yet) but they are mostly geared towards advertising.
 
 I hope you found this as interesting as I did! Let me know if you'd like an update later on, when we have more data.
-
-~ eblume
 
