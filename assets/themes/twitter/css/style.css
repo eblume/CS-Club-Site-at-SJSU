@@ -20,6 +20,12 @@ html, body {
   text-align: left;
 }
 
+.byline {
+  border-top: 1px solid gray;
+  font-style:italic;
+  padding-top:0.5em;
+}
+
 /* The white background content wrapper */
 .content {
   background-color: #fff;
