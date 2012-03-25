@@ -4,7 +4,7 @@
     <ul>
     {% for post in site.posts %}
     	{% if forloop.index < 7 %}<li><a href="{{ post.url }}">{{ post.title }}</a>
-    	<p>{{ post.date }} - {% if post.author %}{% if post.authoremail %}<a href="mailto:{{post.authoremail}}">{% endif %}{{post.author}}{% if post.authoremail %}</a>{% endif %}{% else%}unknown{% endif %}</p</li>{% endif %}
+    	<p>{{ post.date | date: "%d %B %Y" }} - {% if post.author %}{% if post.authoremail %}<a href="mailto:{{post.authoremail}}">{% endif %}{{post.author}}{% if post.authoremail %}</a>{% endif %}{% else%}unknown{% endif %}</p</li>{% endif %}
     {% endfor %}
     </ul>
 </div>

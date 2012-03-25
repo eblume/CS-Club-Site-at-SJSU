@@ -11,7 +11,7 @@ edit_url: /edit/master/index.html
 
 <h1>Recent Post: <a href="{{ toppost.url }}">{{ toppost.title }}</a></h1>
 
-<p>Posted on {{ toppost.date }}{% if toppost.author %} by <em>{% if toppost.authoremail %}<a href="mailto:{{ toppost.authoremail }}">{% endif %}{{toppost.author}}{% if toppost.authoremail %}</a>{% endif %}</em>{% endif %}:</p>
+<p>Posted on {{ toppost.date | date: "%d %B %Y" }}{% if toppost.author %} by <em>{% if toppost.authoremail %}<a href="mailto:{{ toppost.authoremail }}">{% endif %}{{toppost.author}}{% if toppost.authoremail %}</a>{% endif %}</em>{% endif %}:</p>
 
 <article class='block_quote'>
 {{ toppost.content }}
