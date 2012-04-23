@@ -2,7 +2,7 @@
 layout: page
 title: Links
 group: navigation
-edit_url: /edit/master/links.md
+edit_url: /edit/gh-pages/links.md
 ---
 {% include JB/setup %}
 
