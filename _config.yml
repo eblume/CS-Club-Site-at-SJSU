@@ -35,7 +35,6 @@ production_url: http://csclubsjsu.com
 #
 JB :
   version : 0.2.9
-
   # All links will be namespaced by BASE_PATH if defined.
   # Links in your website should always be prefixed with {{BASE_PATH}}
   # however this value will be dynamically changed depending on your deployment situation.
