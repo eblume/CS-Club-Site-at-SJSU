@@ -1,15 +1,36 @@
 /* Override some defaults */
 html, body {
-    background-color: rgb(209,221,233);
+    background-color: #f5efe8;
 }
 
 .navbar .brand {
-    color: rgb(110,170,180);
+    color: white;
+    text-shadow: 0px 1px 0.5px rgba(0,0,0,0.7);
 }
 
 .navbar {
-  margin-bottom: 0;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#123456), to(#123456));
+  margin-bottom: 0px;
+  /* Got rid of the relatively annoying navbar's border radius. */
+  border-radius: 0px;
+  /*Added more shadow to it.*/
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+  border-bottom: inset 3px #345678;
 }
+
+.navbar .nav .active > a, .navbar .nav .active > a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #345678;
+  padding-bottom: 7px;
+  border-bottom: solid 4px #345678;
+}
+
+.navbar .nav > li > a {
+    color: #bce1ff;
+}
+
+
 .container > footer {
   margin-top: 20px;
   margin-left: 3em;
@@ -124,7 +145,7 @@ html, body {
 }
  
 .nav > li > a.external {
-    color: rgb(110,170,180);
+    color: #f2d1b9;
 }
 
 .navbar-right {
@@ -159,19 +180,23 @@ html, body {
 
 /* sidebar widgets */
 .sidebar_widget {
+    position: relative;
     background: rgb(245,245,245);
     margin-bottom: 10px;
-    padding: 10px 5px;
-    -webkit-border-radius: 0 0 6px 6px;
-       -moz-border-radius: 0 0 6px 6px;
-            border-radius: 0 0 6px 6px;
-    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-       -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-            box-shadow: 0 1px 2px rgba(0,0,0,.15);
+    padding:5px;
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.25);
+       -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.25);
+            box-shadow: 0 1px 2px rgba(0,0,0,0.25);
 }
 
 .sidebar_widget > h3 {
+    border-bottom: 2px solid #3688cc;
     text-align: center;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.8);
+    margin-bottom: 5px;
 }
 
 /* headers */
