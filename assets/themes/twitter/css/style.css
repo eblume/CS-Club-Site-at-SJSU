@@ -136,6 +136,7 @@ html, body {
 
 .navbar-right-item {
     margin-right:10px;
+    float: left;
 }
 
 /* right sidebar */
