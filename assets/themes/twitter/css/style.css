@@ -10,6 +10,7 @@ html, body {
 }
 
 .navbar {
+  /* Feel free to change the colors to anything you want. Bootstrap's default is already well-known.*/
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#123456), to(#123456));
   background-image: -moz-linear-gradient(center top, #123456, #123456);
   margin-bottom: -1px;
