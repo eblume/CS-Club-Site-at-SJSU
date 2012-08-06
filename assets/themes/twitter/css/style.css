@@ -169,6 +169,11 @@ html, body {
     float: left;
 }
 
+.pagination {
+  position: relative;
+  margin-left: 35%;
+}
+
 /* right sidebar */
 .container {
     width: 1000px;
