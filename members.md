@@ -2,7 +2,7 @@
 layout: page
 title: Members
 group: navigation
-edit_url: /edit/master/members.md
+edit_url: /edit/gh-pages/members.md
 ---
 {% include JB/setup %}
 **NOTE:** This is neither a complete nor an official list. It is maintained only by the members who wish to be listed themselves. As of this writing there are dozens of active members of the club.

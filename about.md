@@ -2,7 +2,7 @@
 layout: page
 title: About
 group: navigation
-edit_url: /edit/master/about.md
+edit_url: /edit/gh-pages/about.md
 ---
 {% include JB/setup %}
 

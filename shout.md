@@ -3,7 +3,7 @@ layout: page
 title: Shouts
 tagline: "& Quotes"
 group: navigation
-edit_url: /edit/master/shout.md
+edit_url: /edit/gh-pages/shout.md
 ---
 {% include JB/setup %}
 
